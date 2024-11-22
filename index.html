@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista n2</title>
+    <title>Lista Responsiva</title>
     <style>
         @font-face {
             font-family: 'Parkinsans';
@@ -23,15 +23,12 @@
             align-items: center;
             justify-content: space-between;
             padding: 20px;
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
+            position: relative;
         }
 
         .logo-container {
-            width: 150px;
-            height: 150px;
+            width: 100px;
+            height: 100px;
             border-radius: 50%;
             overflow: hidden;
         }
@@ -44,28 +41,23 @@
 
         h1 {
             text-align: center;
-            margin: 0;
-            position: absolute;
-            top: 20px;
-            left: 50%;
-            transform: translateX(-50%);
-            font-size: 2.5rem;
+            margin: 10px 0;
+            font-size: 2rem;
         }
 
         main {
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: flex-start;
             text-align: center;
-            margin-top: 150px;
+            padding: 20px;
         }
 
         ul {
             list-style-type: none;
             padding-left: 0;
             margin: 0;
-            width: 90%;
+            width: 100%;
             max-width: 800px;
         }
 
@@ -75,15 +67,9 @@
 
         ul h3 {
             margin: 0;
-            font-size: 1.5rem;
+            font-size: 1.2rem;
             text-align: left;
             color: white;
-            transition: transform 0.3s ease, color 0.3s ease;
-        }
-
-        ul h3:hover {
-            transform: scale(1.5);
-            color: #f0f0f0;
         }
 
         ul p {
@@ -95,15 +81,33 @@
         }
 
         .slogan {
-            margin-top: 30px; /* Spostato più vicino alla lista */
-            font-size: 2rem;
+            margin-top: 30px;
+            font-size: 1.5rem;
             font-weight: bold;
             text-align: center;
-            transition: transform 0.3s ease;
         }
 
-        .slogan:hover {
-            transform: scale(2.2);
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.8rem;
+            }
+
+            .logo-container {
+                width: 80px;
+                height: 80px;
+            }
+
+            ul h3 {
+                font-size: 1rem;
+            }
+
+            ul p {
+                font-size: 0.9rem;
+            }
+
+            .slogan {
+                font-size: 1.2rem;
+            }
         }
     </style>
 </head>
@@ -113,7 +117,7 @@
             <img src="./rampone_3.jpg" alt="Logo Rampone">
         </div>
     </header>
-    <h1>Punti Lista N2</h1>
+    <h1>Lista Responsiva</h1>
     <main>
         <ul>
             <li>
@@ -147,3 +151,4 @@
     </main>
 </body>
 </html>
+
