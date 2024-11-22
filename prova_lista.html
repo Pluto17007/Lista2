@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista n2</title>
+    <style>
+        @font-face {
+            font-family: 'Parkinsans';
+            src: url('./Parkinsans-VariableFont_wght.ttf') format('truetype');
+        }
+
+        body {
+            background-color: #800000;
+            color: white;
+            font-family: 'Parkinsans', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
+
+        .logo-container {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+
+        .logo-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 0;
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 2.5rem;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            text-align: center;
+            margin-top: 150px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+            margin: 0;
+            width: 90%;
+            max-width: 800px;
+        }
+
+        ul li {
+            margin: 20px 0;
+        }
+
+        ul h3 {
+            margin: 0;
+            font-size: 1.5rem;
+            text-align: left;
+            color: white;
+            transition: transform 0.3s ease, color 0.3s ease;
+        }
+
+        ul h3:hover {
+            transform: scale(1.5);
+            color: #f0f0f0;
+        }
+
+        ul p {
+            margin: 5px 0 0 20px;
+            font-size: 1rem;
+            text-align: left;
+            line-height: 1.5;
+            color: white;
+        }
+
+        .slogan {
+            margin-top: 30px; /* Spostato più vicino alla lista */
+            font-size: 2rem;
+            font-weight: bold;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .slogan:hover {
+            transform: scale(2.2);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="./rampone_3.jpg" alt="Logo Rampone">
+        </div>
+    </header>
+    <h1>Punti Lista N2</h1>
+    <main>
+        <ul>
+            <li>
+                <h3>Qualcosa:</h3>
+                <p>Su cui vorremmo focalizzare sono i tornei d'istituto: calcio a 5, a 11 e pallavolo, basket, tornei fra classi e professori. Gli obiettivi principali sono il divertimento e la socializzazione fra gli studenti.</p>
+            </li>
+            <li>
+                <h3>Cogestione:</h3>
+                <p>Organizzeremo delle giornate di cogestione con attività ludiche e formative per tutti.</p>
+            </li>
+            <li>
+                <h3>Giornate a tema:</h3>
+                <p>Sono delle giornate a tema, ad esempio delle feste in maschera, in modo da attenuare la stanchezza dello studio.</p>
+            </li>
+            <li>
+                <h3>Orientamento:</h3>
+                <p>Organizzare delle attività durante l'open day in cui coinvolgeremo tutti gli studenti affinché possano mostrare ai visitatori il lavoro svolto dai nostri studenti.</p>
+            </li>
+            <li>
+                <h3>Organizzazione di Eventi:</h3>
+                <p>La scuola non è più solo un luogo dove si studia, ma anche un posto in cui divertirsi. Per questo motivo ci piacerebbe organizzare eventi a cui tutti possono partecipare, come il mak-t e la festa di fine anno.</p>
+            </li>
+            <li>
+                <h3>Merchandising:</h3>
+                <p>Per creare un'identità scolastica attiva, con gadget che ci rappresentino, così da far diventare la scuola una grande famiglia.</p>
+            </li>
+        </ul>
+        <div class="slogan">
+            Ascoltiamo, Creiamo, Agiamo!
+        </div>
+    </main>
+</body>
+</html>
